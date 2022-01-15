@@ -1,8 +1,4 @@
 #!/bin/bash
-sudo yum -y install unzip tar wget
-sleep 16
-unzip Openshift_Scripts.zip
-sleep 5
 tar -xvf $(pwd)/Openshift_Scripts/openshift-client-linux.tar.gz 
 sleep 6
 sudo cp -pr $(pwd)/oc /usr/local/bin/
