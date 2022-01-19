@@ -1,4 +1,4 @@
-# Red Hat PE180 Exam Tips
+# Red Hat EX180 Exam Tips
 
 <br>
 
