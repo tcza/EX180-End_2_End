@@ -8,18 +8,9 @@
 
 <br>
 
-> ***Disclaimer:*** This is a personal github repository and **IS NOT** affiliated with Red Hat in any way. All the information provided here are from my personal experience. The red hat logo is a registered trademark of Red Hat,
-Inc. in the United States and other countries. 
-
-> ***Note:*** This repository was written on the 15th of May 2020. The contents/format of the exam might have changed by the time you are reading this now. Use these tips at your own risk.
-
-This repository will provide you with tips to help you pass the PE180 Red Hat Preliminary Exam in Containers, Kubernetes, and Openshift. 
-
-This repository will cover the common problems and difficulties that face people during the PE180 exam like environment specific problems, the limited time and some hidden tricks in the exam. It will also provide general tips and useful information like the commands needed in the exam and some important flags that wasn't mentioned in the DO180 course as well as tips to boost your overall workflow.
-
 ## Table of contents
 
-1. [Overview](#Red-Hat-PE180-Exam-Tips)
+1. [Overview](#Red-Hat-EX180-Exam-Tips)
 2. [Environment Issues](#Environment-Issues)
 3. [Exam & Solving Strategy](#Exam-&-Solving-Strategy)
 4. [Hidden Tricks](#Hidden-Tricks)
@@ -175,8 +166,6 @@ In this section, I'll cover some of the tricks that are part of the questions ab
 
 ## Commands Needed
 
-Below is a list of commands that you need to be **AWARE OF** because you will **NEED THEM** to pass this exam. Make sure to check each command's manual page and see each flag and what they do. Also note that the `man` and `--help` options are available in the exam, so you don't need to memorize them. Just know them and if you forget something you could `--help` it in the exam.
-
 - **sudo podman run** | creates a container
     - -d runs in the background
     - --name sets the name
@@ -198,9 +187,5 @@ Below is a list of commands that you need to be **AWARE OF** because you will **
 - **sudo podman stop** | stops the container
 
 - **sudo podman push** | pushes the image to an image registry
-
-## Conclusion
-
-I hope these tips were helpful and I wish you all to pass your exams and be certified as soon as possible. Stay safe and feel free to contact me @ youssef.negm@ibm.com or catch me at slack for any inquires.
 
 
