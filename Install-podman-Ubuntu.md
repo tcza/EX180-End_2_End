@@ -36,13 +36,13 @@ sudo apt-get update
 sudo apt-get -y upgrade
 ```
 
-## Step 7: Install Podman
+## Step-7 --> Install Podman
 
 ```bash
 sudo apt-get -y install podman
 ```
 
-## Step 8: Check Podman Version
+## Step-8 --> Check Podman Version
 
 ```bash
 source /etc/os-release
