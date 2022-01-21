@@ -45,7 +45,7 @@ sudo apt-get -y install podman
 ## Step-8 --> Check Podman Version
 
 ```bash
-source /etc/os-release
+podman --version
 ```
 
 ## Reference URL
