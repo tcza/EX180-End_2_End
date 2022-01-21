@@ -1,6 +1,5 @@
-# dockerfile to build image for JBoss EAP 6.4
+# dockerfile to build image for JBoss EAP 7.1
 
-# start from rhel 7.2
 FROM ubi8
 
 # file author / maintainer
@@ -24,7 +23,7 @@ RUN mkdir -p /opt/jboss
 
 WORKDIR /opt/jboss
 
-# install JBoss EAP 6.4.0
+# install JBoss EAP 7.1.0
 
 # set environment
 
